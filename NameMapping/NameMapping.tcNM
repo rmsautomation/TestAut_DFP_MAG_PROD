@@ -5042,6 +5042,15 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="panelBooked" Key="{93BACD74-0216-42B0-BA55-B82B4619F547}">
+										<Image FileName="1733317400" Left="1667" Top="496" Right="1734" Bottom="539" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li/div[contains(@class, &apos;badge&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="pageMagaya2" Key="{962F081A-A9C4-4922-9DDD-2149A776D766}">
@@ -12045,6 +12054,12 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//li[8]/ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[normalize-space(text())=&apos;Invoices&apos;]" />
+											</Selector>
+											<Selector>
 												<Value Value="//li[7]/ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
 											</Selector>
 											<Selector>
@@ -15998,6 +16013,45 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//button[contains(@class, &apos;p-paginator-last&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeCargoReleases2" Key="{3DB38454-6298-4EE3-BD42-14825EB817A1}">
+										<Image FileName="-1365032750" Left="8" Top="499" Right="205" Bottom="761" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[8]/ul[contains(@class, &apos;nav&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//li[8]/ul" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[8]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkInvoices3" Key="{1DC5FDC0-EC92-4020-99A1-B1FF4109CBF6}">
+										<Image FileName="-1365032750" Left="8" Top="536" Right="205" Bottom="573" />
+										<TypeInfo Item0="{D3C2C6BB-DEEA-4DE3-92D1-6A940332AFCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[8]/ul/li[3]/a[contains(@class, &apos;nav-link&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;navSidebar&apos;]//li[8]/ul/li[3]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//li[8]/ul/li[3]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="panelBooked2" Key="{DB564623-52DD-4027-8D89-3E857182E8BE}">
+										<Image FileName="2023142278" Left="1667" Top="496" Right="1734" Bottom="539" />
+										<TypeInfo Item0="{8A34ED57-033C-4E01-B624-E540D7FA56BB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li/div[contains(@class, &apos;badge&apos;)]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -21430,6 +21484,7 @@
 					<Child Name="textnodeNumber" Owner="{F0C49B96-2DF3-47AE-A6C8-8531A455E51E}">
 						<Child Name="textnodeQuo" Owner="{DED81085-FABF-40E4-A059-717F8F041A0B}">
 							<Child Name="textnodeClosed" Owner="{AE4AE36D-2E02-4377-BF18-37FF6511F5B5}" />
+							<Child Name="panelBooked2" Owner="{DB564623-52DD-4027-8D89-3E857182E8BE}" />
 						</Child>
 						<Child Name="textnodeNoQuotationsFound" Owner="{375F0C4A-64CB-48CA-A544-62D8B5EC2824}">
 							<Child Name="textnodeNoQuotationsFound2" Owner="{8F375ED8-1B44-46FB-A3C9-D8C8EA87E4F5}" />
@@ -21572,6 +21627,7 @@
 						<Child Name="singInPortal" Owner="{36557946-1DFF-4A98-A715-7C4FF154867B}" />
 					</Child>
 				</Child>
+				<Child Name="selectHouse" Owner="{93BACD74-0216-42B0-BA55-B82B4619F547}" />
 			</Child>
 			<Child Name="pageMagaya2" Owner="{962F081A-A9C4-4922-9DDD-2149A776D766}">
 				<Child Name="sectionMyPortal" Owner="{561F2180-A20F-4062-B0D3-E6B7F9724AFD}">
@@ -21607,6 +21663,9 @@
 					</Child>
 					<Child Name="linkNotifications" Owner="{98F2F6BB-E98A-4A47-87ED-79111691A771}">
 						<Child Name="textnode45" Owner="{E68F365C-9898-4DD1-8B98-1568B2FF501F}" />
+					</Child>
+					<Child Name="textnodeCargoReleases2" Owner="{3DB38454-6298-4EE3-BD42-14825EB817A1}">
+						<Child Name="linkInvoices3" Owner="{1DC5FDC0-EC92-4020-99A1-B1FF4109CBF6}" />
 					</Child>
 				</Child>
 			</Child>
@@ -22203,9 +22262,7 @@
 						</Child>
 					</Child>
 					<Child Name="textnodeCargoReleases" Owner="{F7A8C036-2135-49A2-A4FF-A4A1ED02CDA6}">
-						<Child Name="textnodeInvoices2" Owner="{51084998-A632-42D8-97A5-670A094E9985}">
-							<Child Name="linkInvoices2" Owner="{C48AC127-8365-4C7F-A0DD-DEEE79FC19E7}" />
-						</Child>
+						<Child Name="textnodeInvoices2" Owner="{51084998-A632-42D8-97A5-670A094E9985}" />
 					</Child>
 					<Child Name="textnodeShipments" Owner="{38223AAC-A94F-4051-8299-99C672BB27B3}">
 						<Child Name="paymentMoney" Owner="{B3E29D1C-FF40-4921-837E-634ACE0E6923}">
@@ -22624,6 +22681,7 @@
 				<Child Name="vg2" Owner="{A7B2C736-DB35-4E74-B5CA-3ADD472859FF}" />
 				<Child Name="cargoOption_new" Owner="{D605A313-8E7F-400C-8EA2-6F166B57FF3B}" />
 				<Child Name="textnode50" Owner="{11508055-811C-40E7-8094-2BB3D132C1AF}" />
+				<Child Name="linkInvoices2" Owner="{C48AC127-8365-4C7F-A0DD-DEEE79FC19E7}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
