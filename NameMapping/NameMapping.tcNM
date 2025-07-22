@@ -20902,6 +20902,45 @@
 													</Child>
 												</Children>
 											</Child>
+											<Child Name="panel" Key="{10526E86-B9F4-4A1A-ABFD-2D8289304123}">
+												<Image FileName="368376555" Left="0" Top="107" Right="200" Bottom="1038" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="AfxWnd140u" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="outline" Key="{86E1F472-17F7-4622-BAE7-8A350FA8CF73}">
+														<Image FileName="368376555" Left="0" Top="139" Right="200" Bottom="1038" />
+														<TypeInfo Item0="{EDE39FF5-524B-440F-AD32-F88588B08775}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="SysTreeView32" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Left Tree" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="outlineitemContacts" Key="{F1BA856E-BEF0-4A33-A169-C54CC662ACFB}">
+																<Image FileName="-280730961" Left="60" Top="523" Right="118" Bottom="547" />
+																<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="OutlineItem" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="Contacts" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="toolbar" Key="{FCB9C945-C2EE-43FC-B451-F0B14354FA8E}">
@@ -22976,6 +23015,11 @@
 						<Child Name="outlineitemInvoices" Owner="{66E9BAD4-DB71-4B54-A26E-EFA8B8088B15}" />
 						<Child Name="outlineitemCargoReleaseList" Owner="{25CCA6DB-A161-4796-9C46-1ACF0D9CFC39}" />
 						<Child Name="outlineitemAccounting" Owner="{B600D191-C9AA-49C8-878C-094F1D4E1580}" />
+					</Child>
+					<Child Name="panel" Owner="{10526E86-B9F4-4A1A-ABFD-2D8289304123}">
+						<Child Name="outline" Owner="{86E1F472-17F7-4622-BAE7-8A350FA8CF73}">
+							<Child Name="outlineitemContacts" Owner="{F1BA856E-BEF0-4A33-A169-C54CC662ACFB}" />
+						</Child>
 					</Child>
 				</Child>
 				<Child Name="mainFrame" Owner="{C9DFA5BE-6887-4F72-A50E-BEE3562FAE70}">
