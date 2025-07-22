@@ -20937,6 +20937,21 @@
 																	</Property>
 																</Properties>
 															</Child>
+															<Child Name="outlineitemCustomers" Key="{C6946F9F-6D35-4655-97B2-91F8AF1DB25A}">
+																<Image FileName="606081987" Left="68" Top="459" Right="138" Bottom="483" />
+																<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="OutlineItem" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="Customers" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
 														</Children>
 													</Child>
 												</Children>
@@ -23019,6 +23034,7 @@
 					<Child Name="panel" Owner="{10526E86-B9F4-4A1A-ABFD-2D8289304123}">
 						<Child Name="outline" Owner="{86E1F472-17F7-4622-BAE7-8A350FA8CF73}">
 							<Child Name="outlineitemContacts" Owner="{F1BA856E-BEF0-4A33-A169-C54CC662ACFB}" />
+							<Child Name="outlineitemCustomers" Owner="{C6946F9F-6D35-4655-97B2-91F8AF1DB25A}" />
 						</Child>
 					</Child>
 				</Child>
