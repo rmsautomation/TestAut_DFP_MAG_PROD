@@ -7070,24 +7070,6 @@
 												<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
 												<Selectors>
 													<Selector>
-														<Value Value="" />
-													</Selector>
-													<Selector>
-														<Value Value="" />
-													</Selector>
-													<Selector>
-														<Value Value="" />
-													</Selector>
-													<Selector>
-														<Value Value="" />
-													</Selector>
-													<Selector>
-														<Value Value="" />
-													</Selector>
-													<Selector>
-														<Value Value="" />
-													</Selector>
-													<Selector>
 														<Value Value="xpath=//button[.//div[@class=&apos;lms&apos; and contains(normalize-space(text()), &apos;Please confirm your email&apos;)]]" />
 													</Selector>
 													<Selector>
@@ -8917,6 +8899,24 @@
 											</Selector>
 											<Selector>
 												<Value Value="//form/div/button" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeModalBasicTitle" Key="{78243A86-AFF0-4BA6-96A0-85EB3937D4F9}">
+										<Image FileName="381868743" Left="263" Top="236" Right="420" Bottom="263" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#modal-basic-title" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[.=&apos;Terms and remarks&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h5[contains(@class, &apos;modal-title&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@role=&apos;dialog&apos;]/div/qwyk-simple-modal/div/h5" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -22096,6 +22096,7 @@
 					<Child Name="textareaRemarks" Owner="{A64371FD-BEF5-4898-A024-F9EA9878C65B}" />
 					<Child Name="buttonSend" Owner="{4725AA41-9E77-45E1-BC80-55F8ACB5D4D7}" />
 				</Child>
+				<Child Name="textnodeModalBasicTitle" Owner="{78243A86-AFF0-4BA6-96A0-85EB3937D4F9}" />
 			</Child>
 			<Child Name="pageMagaya12" Owner="{56964D95-B7E6-4EAE-ABC7-9313122DC3C1}">
 				<Child Name="sectionQwyk" Owner="{C7CD19DB-3DA4-41BD-AE46-F7DD31F1D08C}">
