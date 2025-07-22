@@ -12419,10 +12419,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#ngb-nav-3" />
+												<Value Value="//a[contains(text(), &apos;Cargo Details&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//a[contains(text(), &apos;Cargo Details&apos;)]" />
+												<Value Value="#ngb-nav-3" />
 											</Selector>
 											<Selector>
 												<Value Value="//ul[@role=&apos;tablist&apos;]/li[4]/a[@role=&apos;tab&apos;]" />
@@ -12493,10 +12493,10 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
-												<Value Value="#ngb-nav-4" />
+												<Value Value="//a[contains(text(), &apos;Terms &amp; Requirements&apos;)]" />
 											</Selector>
 											<Selector>
-												<Value Value="//a[contains(text(), &apos;Terms &amp; Requirements&apos;)]" />
+												<Value Value="#ngb-nav-4" />
 											</Selector>
 											<Selector>
 												<Value Value="//li[5]/a[@role=&apos;tab&apos;]" />
@@ -12513,6 +12513,9 @@
 										<Image FileName="-2138815867" Left="699" Top="542" Right="1634" Bottom="652" />
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
+											<Selector>
+												<Value Value="xpath=(//textarea[@formcontrolname=&apos;remarks&apos;])[3]" />
+											</Selector>
 											<Selector>
 												<Value Value="//textarea[contains(@class, &apos;form-control&apos;)]" />
 											</Selector>
@@ -16052,6 +16055,21 @@
 										<Selectors>
 											<Selector>
 												<Value Value="//li/div[contains(@class, &apos;badge&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="vg" Key="{C2449F78-02EF-4DBD-BD4B-682E3D976CA1}">
+										<Image FileName="992065002" Left="1545" Top="923" Right="1559" Bottom="937" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//qwyk-pagination/p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_81&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-pagination/p-paginator//p-dropdown[2]//chevrondownicon/*[name()=&apos;svg&apos;]" />
 											</Selector>
 										</Selectors>
 									</Child>
@@ -21193,6 +21211,21 @@
 																	</Property>
 																</Properties>
 															</Child>
+															<Child Name="outlineitemBookingList" Key="{D2E0E3DC-4898-4A06-A976-595AB55E72DA}">
+																<Image FileName="-1750798705" Left="60" Top="355" Right="139" Bottom="379" />
+																<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="OutlineItem" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="Booking List" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
 														</Children>
 													</Child>
 												</Children>
@@ -22797,7 +22830,6 @@
 							<Child Name="linkNgbNav3" Owner="{BA974033-1A10-47F4-A8B5-CBA8099F98FB}" />
 							<Child Name="panelFreightAllKindsFak" Owner="{14E4059C-BAAC-4F90-BAE8-FCFC772DF4BB}" />
 							<Child Name="linkNgbNav4" Owner="{038F3EEB-730A-4257-8EB9-997FBCE696D9}" />
-							<Child Name="textarea" Owner="{B0CDE249-1389-420B-BA45-664F1F924B6A}" />
 						</Child>
 						<Child Name="formName" Owner="{07FE5D5C-3556-455F-BA4F-B612DF28672C}">
 							<Child Name="textbox2" Owner="{86A2F0C0-99AB-4E41-9455-B49C722323DF}" />
@@ -22979,6 +23011,9 @@
 					<Child Name="panelMyPortal" Owner="{B6959C25-1CD0-43C6-A091-9148CAFB7EC6}" />
 					<Child Name="page6" Owner="{775BBA3E-C8BA-4067-9A51-829D11196906}" />
 					<Child Name="buttonLastPage" Owner="{88B9CFAC-F293-4617-AB21-7CB0597332B7}" />
+					<Child Name="vg" Owner="{C2449F78-02EF-4DBD-BD4B-682E3D976CA1}" />
+					<Child Name="textarea" Owner="{B0CDE249-1389-420B-BA45-664F1F924B6A}" />
+					<Child Name="buttonUploadAttachment" Owner="{1CC2F277-8894-45F3-A826-E525E382EBCF}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -23031,7 +23066,6 @@
 					</Child>
 					<Child Name="textnodeEvents" Owner="{1925129B-FB93-49B4-8399-553FE37A8D65}" />
 					<Child Name="panelDetails" Owner="{7B1CBDD4-C9B2-47EB-B81C-5F7FD3D0B4E7}" />
-					<Child Name="buttonUploadAttachment" Owner="{1CC2F277-8894-45F3-A826-E525E382EBCF}" />
 					<Child Name="textnodeShipper" Owner="{061A3FD1-43F2-4188-84F1-12E981362EF1}">
 						<Child Name="textnodeShipper2" Owner="{D6ED15A1-6BD4-41EB-81A7-FAF1FC126BA6}">
 							<Child Name="panelUpdated" Owner="{3BE93374-15F7-4A42-947E-562BD2953147}" />
@@ -23443,6 +23477,7 @@
 							<Child Name="outlineitemPickupOrderList" Owner="{7CAE0F69-105A-463C-B444-E5D2EA26D9DB}" />
 							<Child Name="outlineitemPaymentList" Owner="{51D5EA96-0A57-4F8C-A1AC-2447546AB7FE}" />
 							<Child Name="outlineitemCommodityList" Owner="{3969C869-4C61-4B9F-9A16-AC58E351094C}" />
+							<Child Name="outlineitemBookingList" Owner="{D2E0E3DC-4898-4A06-A976-595AB55E72DA}" />
 						</Child>
 					</Child>
 				</Child>
