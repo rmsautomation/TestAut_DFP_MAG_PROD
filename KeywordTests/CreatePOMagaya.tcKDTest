@@ -14,6 +14,7 @@
 		<Children>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Expands the %p1 item of the &apos;%n&apos; tree." Action="ExpandItem">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="|Operations" />
 						<Parameter Name="Expand" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
@@ -23,6 +24,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the %p1 item of the &apos;%n&apos; tree." Action="ClickItem">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="|Operations|Pickup Orders" />
 						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
@@ -37,8 +39,12 @@
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.completePanel.TreeView;" />
 				</Data>
 			</Operation>
+			<Operation Type="{E8089E1C-53BC-4D9C-A69D-7CDDB49422CB}">
+				<Data Description="Runs a keyword test." TestName="GoToOperationsPO" />
+			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the %p1 item of the &apos;%n&apos; toolbar." Action="ClickItem">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="3" ValueType="1" ValueValue="33091" />
 						<Parameter Name="ByPosition" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="False" />
@@ -52,6 +58,11 @@
 						</Parameter>
 					</Parameters>
 					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.mainFrame.panelList.outToolbar.toolbar;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="ClickButton">
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.mainWindow.mainFrame.page327702.page32770.toolbar.buttonAdd;" />
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
@@ -248,6 +259,15 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="98" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="16" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.dlg.page327702.Edit3;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Simulates one or several keypresses." Action="Keys">
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="MSC" />
@@ -256,7 +276,50 @@
 				</Data>
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Selects the %p1 item of the &apos;%n&apos; select control." Action="ClickItem" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="MSC" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.dlg.ListView;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; object." Action="Click" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="49" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="6" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.dlg.page327702.editPortOfLading;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates one or several keypresses." Action="Keys">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="MSC" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.dlg.page327702.editPortOfLading;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Selects the %p1 item of the &apos;%n&apos; select control." Action="ClickItem" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Param1" DefVarType="0" VarType="8" ValueType="6" ValueValue="MSC" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.dlg.ListView;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Simulates one or several keypresses." Action="Keys">
+					<CommonData Disabled="True" />
+					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
+						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="MSC" />
+					</Parameters>
+					<ObjectSyntax LangId="{90F89436-9452-4F95-9882-6B5210079F13}" Code="Aliases.ExpExpl.dlg.page327702.Edit3;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the %p2 subitem of the %p1 item of the &apos;%n&apos; list view." Action="ClickItem">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="MSC" />
 						<Parameter Name="SubItem" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />
@@ -274,6 +337,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the &apos;%n&apos; object." Action="Click">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="66" />
 						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="10" />
@@ -291,6 +355,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Simulates one or several keypresses." Action="Keys">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="MSC" />
 					</Parameters>
@@ -299,6 +364,7 @@
 			</Operation>
 			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
 				<Data Description="Clicks the %p2 subitem of the %p1 item of the &apos;%n&apos; list view." Action="ClickItem">
+					<CommonData Disabled="True" />
 					<Parameters LangId="{90F89436-9452-4F95-9882-6B5210079F13}">
 						<Parameter Name="Item" DefVarType="12" VarType="3" ValueType="1" ValueValue="0" />
 						<Parameter Name="SubItem" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0" />

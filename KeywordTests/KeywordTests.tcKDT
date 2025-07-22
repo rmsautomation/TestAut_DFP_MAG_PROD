@@ -194,6 +194,7 @@
 						<child name="AddAttachmentDFPShipment" key="{F0672EB0-95CC-40C5-84BE-586446818437}" path="AddAttachmentDFPShipment.tcKDTest" />
 						<child name="VerifyAllTypeAttachDFP" key="{DB4F4353-29E1-4EFB-A9AC-08ED3EE8312F}" path="VerifyAllTypeAttachDFP.tcKDTest" />
 						<child name="AddAllTypeAttachDFP" key="{13E3848F-1260-4886-9DFA-37198C27ECC5}" path="AddAllTypeAttachDFP.tcKDTest" />
+						<child name="ChangePaginationTo50" key="{87C1FD1C-B2A9-4895-8F83-810B645F0988}" path="ChangePaginationTo50.tcKDTest" />
 					</folder>
 					<folder name="WR">
 						<child name="SearchWR" key="{9EAA9378-8908-4A42-AF97-807EDE71CF4A}" path="SearchWR.tcKDTest" />
@@ -351,6 +352,7 @@
 					<child name="UpdateBookingMagaya" key="{EC8C3CB2-6CFE-4D57-8E8A-5AA9214803B3}" path="UpdateBookingMagaya.tcKDTest" />
 					<child name="VerifyMappingChargesMagaya" key="{4BCB814F-831B-4A23-9CB8-99383F292FC3}" path="VerifyMappingChargesMagaya.tcKDTest" />
 					<child name="AddChargeMagaya" key="{39458DDC-D455-49D9-AD3C-7DD6042B7719}" path="AddChargeMagaya.tcKDTest" />
+					<child name="GoToBookingList" key="{B1466CD0-5F53-4449-A9A5-02B96E39AA93}" path="GoToBookingList.tcKDTest" />
 				</folder>
 				<folder name="WR">
 					<child name="CreateWR" key="{06D0D3E6-BAD2-4545-822B-C43C2655AB79}" path="CreateWR.tcKDTest" />
