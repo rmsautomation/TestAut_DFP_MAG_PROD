@@ -19067,6 +19067,21 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="buttonFind" Key="{CDB8B2F3-4AA7-4C14-B112-D64BB9BB99B6}">
+												<Image FileName="-750424447" Left="439" Top="251" Right="514" Bottom="271" />
+												<TypeInfo Item0="{2E69653D-DE91-48BD-ABCA-C81B9D1229E9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Find..." />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="tbcAccountingTransaction" Key="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}">
@@ -19393,6 +19408,21 @@
 												</Properties>
 											</Child>
 										</Children>
+									</Child>
+									<Child Name="buttonFind" Key="{ECFD87A8-9BC3-4B9D-8212-52B4602BD150}">
+										<Image FileName="1714177691" Left="86" Top="116" Right="161" Bottom="139" />
+										<TypeInfo Item0="{2E69653D-DE91-48BD-ABCA-C81B9D1229E9}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Find" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
 									</Child>
 								</Children>
 							</Child>
@@ -21801,6 +21831,21 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="menuitemFindByNumber" Key="{05605464-99BD-4C1C-94A7-34BB44DB2E5C}">
+										<Image FileName="-714623594" Left="3" Top="3" Right="182" Bottom="25" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Find By Number..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="popupAddShipments" Key="{7B5B87DD-400C-484F-8DBD-C1AE8A94105C}">
@@ -23685,6 +23730,7 @@
 					<Child Name="editCustomer" Owner="{17844BB3-7DEE-4A2A-8F3F-DEB6CF023D0D}" />
 					<Child Name="check2" Owner="{E5712288-1DF1-4A08-9CDB-60A21689063E}" />
 					<Child Name="RICHEDIT" Owner="{E2AA9D2E-691B-41E7-AB4D-9593844BBD9B}" />
+					<Child Name="buttonFind" Owner="{CDB8B2F3-4AA7-4C14-B112-D64BB9BB99B6}" />
 				</Child>
 				<Child Name="tbcAccountingTransaction" Owner="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}">
 					<Child Name="spinbox" Owner="{5AA68BEE-CD37-42C5-AED9-DA3F1B4454BB}">
@@ -23720,6 +23766,7 @@
 				<Child Name="titlebar" Owner="{9B66015C-3101-4F7E-9DAA-807544073242}">
 					<Child Name="buttonClose" Owner="{EA9EFE83-7B54-4C38-89AC-701797C74BA2}" />
 				</Child>
+				<Child Name="buttonFind" Owner="{ECFD87A8-9BC3-4B9D-8212-52B4602BD150}" />
 			</Child>
 			<Child Name="wndCefBrowserWindow" Owner="{A8DDB9A1-DB0D-4E12-BC5B-C4A93FE9B21E}">
 				<Child Name="Chrome_WidgetWin_0" Owner="{AFEE01FD-7B63-4645-8BD5-98D2C0427784}">
@@ -23944,6 +23991,7 @@
 				<Child Name="menuitemAddInventoryItem" Owner="{9D2E8836-CD3B-47ED-B493-CE56E3C31710}" />
 				<Child Name="menuitemCreateWarehouseReceipt" Owner="{E66230F0-CC92-4728-87CC-23ECB6CA6CED}" />
 				<Child Name="menuitemCustomerPayment" Owner="{E1DE50F4-0C48-4BBC-8774-DCEBB271CFC6}" />
+				<Child Name="menuitemFindByNumber" Owner="{05605464-99BD-4C1C-94A7-34BB44DB2E5C}" />
 			</Child>
 			<Child Name="popupAddShipments" Owner="{7B5B87DD-400C-484F-8DBD-C1AE8A94105C}">
 				<Child Name="menuitemAirShipment" Owner="{03CA3046-A9BF-46B8-9B9B-5CA0F4BD83DF}" />
