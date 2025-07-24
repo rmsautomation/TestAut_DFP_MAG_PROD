@@ -18462,6 +18462,51 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="listitemRoundpriceupdated17820Kb" Key="{AED94950-1806-4E3F-A24E-DF280D3642EA}">
+														<Image FileName="-306629192" Left="31" Top="73" Right="153" Bottom="186" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="RoundPriceUpdated (178.20 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTestingAttachments1173Kb" Key="{010B6B93-A9B8-4714-AFAD-5DF5FDC673C3}">
+														<Image FileName="-1112066430" Left="277" Top="73" Right="399" Bottom="186" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Testing Attachments (11.73 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTest26583Kb" Key="{FB4322A2-3225-4D1D-ACEF-FB4E054662AE}">
+														<Image FileName="-1325954356" Left="400" Top="73" Right="522" Bottom="173" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="test2 (65.83 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 											<Child Name="Edit" Key="{8781365F-C9D1-4F91-A41F-59B51B524D62}">
@@ -22941,9 +22986,7 @@
 						</Child>
 					</Child>
 					<Child Name="textnodeBilling" Owner="{AFB9D3D3-F300-41EC-AC21-04F9ACC9B95A}">
-						<Child Name="linkBilling" Owner="{AAB4559B-5EC8-4515-A9EC-8676BDA23D6F}">
-							<Child Name="textnodeBilling2" Owner="{0C548E13-11CC-4B30-99C2-22F5825A2000}" />
-						</Child>
+						<Child Name="linkBilling" Owner="{AAB4559B-5EC8-4515-A9EC-8676BDA23D6F}" />
 					</Child>
 					<Child Name="textnodeInvoices" Owner="{808EFCA3-1AAC-4016-A24D-A045A7DEF4AB}">
 						<Child Name="linkInvoices" Owner="{952967F3-0618-49D7-B7AA-A507E981B035}" />
@@ -23224,7 +23267,6 @@
 					<Child Name="panelMyPortal" Owner="{B6959C25-1CD0-43C6-A091-9148CAFB7EC6}" />
 					<Child Name="page6" Owner="{775BBA3E-C8BA-4067-9A51-829D11196906}" />
 					<Child Name="buttonLastPage" Owner="{88B9CFAC-F293-4617-AB21-7CB0597332B7}" />
-					<Child Name="vg" Owner="{C2449F78-02EF-4DBD-BD4B-682E3D976CA1}" />
 					<Child Name="textarea" Owner="{B0CDE249-1389-420B-BA45-664F1F924B6A}" />
 					<Child Name="buttonUploadAttachment" Owner="{1CC2F277-8894-45F3-A826-E525E382EBCF}" />
 					<Child Name="buttonPdf" Owner="{0C1BCB73-C3F8-4748-9397-6FFB400803D1}" />
@@ -23379,6 +23421,7 @@
 				<Child Name="textnode50" Owner="{11508055-811C-40E7-8094-2BB3D132C1AF}" />
 				<Child Name="linkInvoices2" Owner="{C48AC127-8365-4C7F-A0DD-DEEE79FC19E7}" />
 				<Child Name="panelWRThis" Owner="{7A1D020A-7645-4432-A830-6A5FA56B74A9}" />
+				<Child Name="textnodeBilling2" Owner="{0C548E13-11CC-4B30-99C2-22F5825A2000}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
@@ -23516,6 +23559,7 @@
 			<Child Name="wndChrome_WidgetWin_0" Owner="{70ECFEB0-24A7-4734-BA83-D610C71EA36D}">
 				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{E2FF1B6E-FD72-4158-8F31-C202800795A8}" />
 			</Child>
+			<Child Name="vg" Owner="{C2449F78-02EF-4DBD-BD4B-682E3D976CA1}" />
 		</Child>
 		<Child Name="ExpExpl" Owner="{CD3C85FD-FE23-49C1-9507-BC799CFA2850}">
 			<Child Name="dlg" Owner="{AB8C7EDE-89C5-4475-8B4F-0C7D609AB6A1}">
@@ -23582,6 +23626,9 @@
 						<Child Name="listitemDocdfp1512Kb" Owner="{ED7596E0-C372-4EF9-9428-44C3EEBB6AF3}" />
 						<Child Name="listitemXlsdfp17820Kb" Owner="{5C1E870D-66C2-4126-B933-3CCD0E7AAA57}" />
 						<Child Name="listitemTest16475Kb2" Owner="{257465A3-4914-490C-9BB9-33B8AC80D3F0}" />
+						<Child Name="listitemRoundpriceupdated17820Kb" Owner="{AED94950-1806-4E3F-A24E-DF280D3642EA}" />
+						<Child Name="listitemTestingAttachments1173Kb" Owner="{010B6B93-A9B8-4714-AFAD-5DF5FDC673C3}" />
+						<Child Name="listitemTest26583Kb" Owner="{FB4322A2-3225-4D1D-ACEF-FB4E054662AE}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
 					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}">
