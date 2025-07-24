@@ -13514,6 +13514,9 @@
 										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
 										<Selectors>
 											<Selector>
+												<Value Value="xpath=//h3[contains(text(), &apos;UPDATED&apos;)]" />
+											</Selector>
+											<Selector>
 												<Value Value="//qwyk-warehouse-receipt-summary/div/div/div" />
 											</Selector>
 										</Selectors>
@@ -16073,6 +16076,24 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="buttonPdf" Key="{0C1BCB73-C3F8-4748-9397-6FFB400803D1}">
+										<Image FileName="-1150692772" Left="1490" Top="258" Right="1578" Bottom="292" />
+										<TypeInfo Item0="{18280DA8-CE42-4455-8E18-30F2047E80F0}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//button[contains(text(), &apos;PDF&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-pickup-orders-details//qwyk-pickup-orders-header//qwyk-downloadable-drop-down//button[@type=&apos;button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-pickup-orders-details//qwyk-pickup-orders-header//qwyk-downloadable-drop-down//button[contains(@class, &apos;btn&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//qwyk-pickup-orders-details//qwyk-pickup-orders-header//qwyk-downloadable-drop-down//button" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -17859,6 +17880,21 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="checkboxBooked" Key="{8CCD679A-E26B-4224-B43E-A73B3F6B43FF}">
+												<Image FileName="429348767" Left="19" Top="62" Right="964" Bottom="83" />
+												<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="CheckBox" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Booked" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="btnOK" Key="{18F54034-9518-4445-B27B-D992418ABEA5}">
@@ -18300,6 +18336,126 @@
 															</Property>
 															<Property Name="Caption">
 																<Value Value="PDFDFP" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTest16475Kb" Key="{318EA3E0-1DB4-4166-8B72-285219647045}">
+														<Image FileName="-1178280420" Left="156" Top="73" Right="278" Bottom="173" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value PropertyType="1" LocalVariable="attachTest" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemAttachdfp6583Kb" Key="{B7779440-BF79-41D2-983C-78F3DD3A3CA0}">
+														<Image FileName="-1268701695" Left="279" Top="73" Right="401" Bottom="173" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="attachDFP (65.83 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemCsvdfp3346Kb" Key="{2257F486-3E36-4230-B57D-105E71239B33}">
+														<Image FileName="-1193649" Left="402" Top="73" Right="524" Bottom="173" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="CSVDFP (33.46 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTest18791Kb" Key="{35BB2BEA-F8DC-4F03-976B-01CC9E6E6D0C}">
+														<Image FileName="-260667525" Left="525" Top="73" Right="647" Bottom="173" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="test1 (87.91 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemMsgdfp29250Kb" Key="{7FC27FC5-9895-4698-976B-3B922D80F827}">
+														<Image FileName="-1474970435" Left="33" Top="196" Right="155" Bottom="296" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="MSGDFP (292.50 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemDocdfp1512Kb" Key="{ED7596E0-C372-4EF9-9428-44C3EEBB6AF3}">
+														<Image FileName="-347190528" Left="156" Top="196" Right="278" Bottom="296" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="DOCDFP (15.12 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemXlsdfp17820Kb" Key="{5C1E870D-66C2-4126-B933-3CCD0E7AAA57}">
+														<Image FileName="-2074848458" Left="279" Top="196" Right="401" Bottom="296" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="XLSDFP (178.20 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTest16475Kb2" Key="{257465A3-4914-490C-9BB9-33B8AC80D3F0}">
+														<Image FileName="-938875355" Left="156" Top="73" Right="278" Bottom="173" />
+														<TypeInfo Item0="{199D66DB-2325-457B-98E9-D4200B09FDCF}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="test (164.75 KB)" />
 															</Property>
 															<Property Name="ObjectGroupIndex">
 																<Value Value="1" Type="0" />
@@ -19383,6 +19539,21 @@
 																			</Property>
 																		</Properties>
 																	</Child>
+																	<Child Name="listitemOpen" Key="{EB4B1761-007D-4082-85AC-270AC60FD34F}">
+																		<Image FileName="-17048249" Left="215" Top="227" Right="1015" Bottom="248" />
+																		<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="ListItem" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value Value="Open" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
 																</Children>
 															</Child>
 															<Child Name="page32770" Key="{3EF37D24-FFBB-4713-88A8-4C2F0DBDD98C}">
@@ -19586,6 +19757,34 @@
 																										<Value Value="Add..." />
 																									</Property>
 																								</Properties>
+																							</Child>
+																							<Child Name="list" Key="{017DBCDF-751F-4729-B2E3-D5934EB609CA}">
+																								<Image FileName="-1609349177" Left="228" Top="392" Right="1262" Bottom="907" />
+																								<Properties>
+																									<Property Name="WndClass">
+																										<Value Value="SysListView32" />
+																									</Property>
+																									<Property Name="WndCaption">
+																										<Value Value="List1" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="listitemTest16475Kb" Key="{2E9EFC95-BC9E-419F-B50C-ADD19B9BC650}">
+																										<Image FileName="-1609349177" Left="355" Top="394" Right="477" Bottom="494" />
+																										<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="ListItem" />
+																											</Property>
+																											<Property Name="Caption">
+																												<Value Value="test (164.75 KB)" />
+																											</Property>
+																											<Property Name="ObjectGroupIndex">
+																												<Value Value="1" Type="0" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
 																							</Child>
 																						</Children>
 																					</Child>
@@ -21220,6 +21419,21 @@
 																	</Property>
 																	<Property Name="Caption">
 																		<Value Value="Booking List" />
+																	</Property>
+																	<Property Name="ObjectGroupIndex">
+																		<Value Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="outlineitemInvoices" Key="{A50E5A55-70B4-4EA7-BCA9-38B0EBB9FF0C}">
+																<Image FileName="-892430162" Left="60" Top="475" Right="113" Bottom="499" />
+																<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="OutlineItem" />
+																	</Property>
+																	<Property Name="Caption">
+																		<Value Value="Invoices" />
 																	</Property>
 																	<Property Name="ObjectGroupIndex">
 																		<Value Value="1" Type="0" />
@@ -22911,7 +23125,6 @@
 						</Child>
 						<Child Name="textnodeDeliveredToConsignee" Owner="{0A1496C2-2C60-41A7-A9BE-B2BBD0795B22}" />
 					</Child>
-					<Child Name="panelWRThis" Owner="{7A1D020A-7645-4432-A830-6A5FA56B74A9}" />
 					<Child Name="panelDriversname" Owner="{9CE90E8F-F5A6-499B-8A9A-74BAA9819BC3}" />
 					<Child Name="panel12updated" Owner="{26E0FC49-FB27-4A41-9F8F-E7AB78E96463}" />
 					<Child Name="panelDriversnameupdated" Owner="{6BDD74C5-4787-4ECE-830E-9587CA8CDD8F}" />
@@ -23014,6 +23227,7 @@
 					<Child Name="vg" Owner="{C2449F78-02EF-4DBD-BD4B-682E3D976CA1}" />
 					<Child Name="textarea" Owner="{B0CDE249-1389-420B-BA45-664F1F924B6A}" />
 					<Child Name="buttonUploadAttachment" Owner="{1CC2F277-8894-45F3-A826-E525E382EBCF}" />
+					<Child Name="buttonPdf" Owner="{0C1BCB73-C3F8-4748-9397-6FFB400803D1}" />
 				</Child>
 				<Child Name="textnodeResults" Owner="{1CF6087C-57FF-4430-B9F1-800D8664F6B3}" />
 				<Child Name="panelRequestADifferentRate" Owner="{F00322FB-BB44-4EBC-A779-77467DCD493F}" />
@@ -23164,6 +23378,7 @@
 				<Child Name="cargoOption_new" Owner="{D605A313-8E7F-400C-8EA2-6F166B57FF3B}" />
 				<Child Name="textnode50" Owner="{11508055-811C-40E7-8094-2BB3D132C1AF}" />
 				<Child Name="linkInvoices2" Owner="{C48AC127-8365-4C7F-A0DD-DEEE79FC19E7}" />
+				<Child Name="panelWRThis" Owner="{7A1D020A-7645-4432-A830-6A5FA56B74A9}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
@@ -23323,6 +23538,7 @@
 					<Child Name="checkboxArriving" Owner="{A1D9F44E-DC01-4528-B732-7D728137D682}" />
 					<Child Name="listitemCargoRelease" Owner="{ABB5CF23-0633-4BE5-98D3-C0C8674BE41D}" />
 					<Child Name="listitemWarehouseReceipt" Owner="{A8676204-7C79-4159-91E5-2F285FCDBB2C}" />
+					<Child Name="checkboxBooked" Owner="{8CCD679A-E26B-4224-B43E-A73B3F6B43FF}" />
 				</Child>
 				<Child Name="btnOK" Owner="{18F54034-9518-4445-B27B-D992418ABEA5}" />
 				<Child Name="btnAdd" Owner="{0AF557EB-9308-444A-B62D-1FBC38A3EB78}" />
@@ -23358,6 +23574,14 @@
 						<Child Name="listitemOnHand" Owner="{72729289-3D49-45D7-8C78-DEA15B37E622}" />
 						<Child Name="listitemArriving" Owner="{1EBCC281-5692-4EE7-B9FC-48D31422FCAD}" />
 						<Child Name="listitemPdfdfp" Owner="{6F2A0E91-BB1E-4E48-B236-EA2558A0E6D0}" />
+						<Child Name="listitemTest16475Kb" Owner="{318EA3E0-1DB4-4166-8B72-285219647045}" />
+						<Child Name="listitemAttachdfp6583Kb" Owner="{B7779440-BF79-41D2-983C-78F3DD3A3CA0}" />
+						<Child Name="listitemCsvdfp3346Kb" Owner="{2257F486-3E36-4230-B57D-105E71239B33}" />
+						<Child Name="listitemTest18791Kb" Owner="{35BB2BEA-F8DC-4F03-976B-01CC9E6E6D0C}" />
+						<Child Name="listitemMsgdfp29250Kb" Owner="{7FC27FC5-9895-4698-976B-3B922D80F827}" />
+						<Child Name="listitemDocdfp1512Kb" Owner="{ED7596E0-C372-4EF9-9428-44C3EEBB6AF3}" />
+						<Child Name="listitemXlsdfp17820Kb" Owner="{5C1E870D-66C2-4126-B933-3CCD0E7AAA57}" />
+						<Child Name="listitemTest16475Kb2" Owner="{257465A3-4914-490C-9BB9-33B8AC80D3F0}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
 					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}">
@@ -23478,6 +23702,7 @@
 							<Child Name="outlineitemPaymentList" Owner="{51D5EA96-0A57-4F8C-A1AC-2447546AB7FE}" />
 							<Child Name="outlineitemCommodityList" Owner="{3969C869-4C61-4B9F-9A16-AC58E351094C}" />
 							<Child Name="outlineitemBookingList" Owner="{D2E0E3DC-4898-4A06-A976-595AB55E72DA}" />
+							<Child Name="outlineitemInvoices" Owner="{A50E5A55-70B4-4EA7-BCA9-38B0EBB9FF0C}" />
 						</Child>
 					</Child>
 				</Child>
@@ -23498,6 +23723,7 @@
 					<Child Name="page327702" Owner="{806E32D8-8C15-4F48-99FF-128F83AB35E5}">
 						<Child Name="ListView" Owner="{B241736E-8782-48B5-8F5E-93D67B1A760A}">
 							<Child Name="listitemFirst" Owner="{83A7094F-544D-48C8-B5E1-D06ED67BFAC9}" />
+							<Child Name="listitemOpen" Owner="{EB4B1761-007D-4082-85AC-270AC60FD34F}" />
 						</Child>
 						<Child Name="page32770" Owner="{3EF37D24-FFBB-4713-88A8-4C2F0DBDD98C}">
 							<Child Name="toolbar" Owner="{49639792-31C1-4776-82E7-5470DC421337}">
@@ -23520,6 +23746,9 @@
 											<Child Name="listitemTest2" Owner="{8C3ED96A-17F6-4388-85F1-A4F75443EEEB}" />
 										</Child>
 										<Child Name="btnAdd" Owner="{48A48281-8D3E-47F5-A976-B453DBAD89CE}" />
+										<Child Name="list" Owner="{017DBCDF-751F-4729-B2E3-D5934EB609CA}">
+											<Child Name="listitemTest16475Kb" Owner="{2E9EFC95-BC9E-419F-B50C-ADD19B9BC650}" />
+										</Child>
 									</Child>
 									<Child Name="pageGeneral" Owner="{F0254FA5-409F-4459-B0BF-CDB4512AEEE9}">
 										<Child Name="editShipmentName" Owner="{6D3DBD20-E881-4BCE-B8ED-C5E07344F348}" />
