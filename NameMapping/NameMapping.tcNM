@@ -16094,6 +16094,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="vg4" Key="{472FFFA5-427E-442A-9EBD-A04E2C611F36}">
+										<Image FileName="2071876853" Left="1453" Top="317" Right="1465" Bottom="329" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_10&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -23231,6 +23246,7 @@
 						<Child Name="panelSearch" Owner="{7C535E37-2FBC-44C1-9BB5-A7AC3B523A2F}" />
 						<Child Name="buttonReset" Owner="{29E07396-C73F-4999-A517-92B88C7962B3}" />
 						<Child Name="panelDropdownTrigger" Owner="{4EE8943D-F0E4-4CEA-815D-68AE9A098303}" />
+						<Child Name="vg4" Owner="{472FFFA5-427E-442A-9EBD-A04E2C611F36}" />
 					</Child>
 					<Child Name="textnodeYourCargoDetail" Owner="{A03FBEC3-D242-44EE-BEE6-21E697353183}" />
 					<Child Name="commodityName" Owner="{71DA3E13-859F-4302-AD93-59A63D4AA22B}" />
