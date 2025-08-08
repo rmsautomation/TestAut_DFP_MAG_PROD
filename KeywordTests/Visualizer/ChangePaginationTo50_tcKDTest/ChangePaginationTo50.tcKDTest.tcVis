@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{87C1FD1C-B2A9-4895-8F83-810B645F0988}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45860.7467013889" objectName="Aliases.chrome2.pageMagayaQaDfp.sectionMyPortal.vg" objectLeft="1545" objectTop="923" objectRight="1559" objectBottom="937" clickPointX="1551" clickPointY="934" imageFileName="tcvi-1875507436143040.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="0" kind="0" dateTime="45860.7467013889" objectName="Aliases.chrome2.vg" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi-1875507436143040.png" storageFileName="" needUpdate="False" rectColor="255" />
 		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="1" kind="0" dateTime="45860.7467476852" objectName="Aliases.chrome2.pageMagayaQaDfp.textnode50" objectLeft="1527" objectTop="887" objectRight="1541" objectBottom="904" clickPointX="1536" clickPointY="895" imageFileName="tcvi-1875503639143043.png" storageFileName="" needUpdate="False" rectColor="255" />
 	</data>
 </Root>

@@ -16094,6 +16094,21 @@
 											</Selector>
 										</Selectors>
 									</Child>
+									<Child Name="vg4" Key="{472FFFA5-427E-442A-9EBD-A04E2C611F36}">
+										<Image FileName="2071876853" Left="1453" Top="317" Right="1465" Bottom="329" />
+										<TypeInfo Item0="{D0C17A97-FBCB-484E-B458-261FDAEB6BCB}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[2]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;][contains(@class, &apos;p-dropdown-trigger-icon&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;pn_id_10&apos;]//*[name()=&apos;svg&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[2]//p-dropdown//chevrondownicon/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="BrowserWindow" Key="{04F3F450-5526-4092-96D2-21C0884F59D5}">
@@ -18462,6 +18477,51 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="listitemRoundpriceupdated17820Kb" Key="{AED94950-1806-4E3F-A24E-DF280D3642EA}">
+														<Image FileName="-306629192" Left="31" Top="73" Right="153" Bottom="186" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="RoundPriceUpdated (178.20 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTestingAttachments1173Kb" Key="{010B6B93-A9B8-4714-AFAD-5DF5FDC673C3}">
+														<Image FileName="-1112066430" Left="277" Top="73" Right="399" Bottom="186" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="Testing Attachments (11.73 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="listitemTest26583Kb" Key="{FB4322A2-3225-4D1D-ACEF-FB4E054662AE}">
+														<Image FileName="-1325954356" Left="400" Top="73" Right="522" Bottom="173" />
+														<TypeInfo Item0="{ECEED1AB-62AC-4144-8E61-E4E2F8BA7D12}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="ListItem" />
+															</Property>
+															<Property Name="Caption">
+																<Value Value="test2 (65.83 KB)" />
+															</Property>
+															<Property Name="ObjectGroupIndex">
+																<Value Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 											<Child Name="Edit" Key="{8781365F-C9D1-4F91-A41F-59B51B524D62}">
@@ -19007,6 +19067,21 @@
 													</Property>
 												</Properties>
 											</Child>
+											<Child Name="buttonFind" Key="{CDB8B2F3-4AA7-4C14-B112-D64BB9BB99B6}">
+												<Image FileName="-750424447" Left="439" Top="251" Right="514" Bottom="271" />
+												<TypeInfo Item0="{2E69653D-DE91-48BD-ABCA-C81B9D1229E9}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="Caption">
+														<Value Value="Find..." />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
 										</Children>
 									</Child>
 									<Child Name="tbcAccountingTransaction" Key="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}">
@@ -19333,6 +19408,21 @@
 												</Properties>
 											</Child>
 										</Children>
+									</Child>
+									<Child Name="buttonFind" Key="{ECFD87A8-9BC3-4B9D-8212-52B4602BD150}">
+										<Image FileName="1714177691" Left="86" Top="116" Right="161" Bottom="139" />
+										<TypeInfo Item0="{2E69653D-DE91-48BD-ABCA-C81B9D1229E9}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Find" />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
 									</Child>
 								</Children>
 							</Child>
@@ -21741,6 +21831,21 @@
 											</Property>
 										</Properties>
 									</Child>
+									<Child Name="menuitemFindByNumber" Key="{05605464-99BD-4C1C-94A7-34BB44DB2E5C}">
+										<Image FileName="-714623594" Left="3" Top="3" Right="182" Bottom="25" />
+										<TypeInfo Item0="{BD91983E-10C5-43AF-834F-060D7F5933D7}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="MenuItem" />
+											</Property>
+											<Property Name="Caption">
+												<Value Value="Find By Number..." />
+											</Property>
+											<Property Name="ObjectGroupIndex">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
 								</Children>
 							</Child>
 							<Child Name="popupAddShipments" Key="{7B5B87DD-400C-484F-8DBD-C1AE8A94105C}">
@@ -22941,9 +23046,7 @@
 						</Child>
 					</Child>
 					<Child Name="textnodeBilling" Owner="{AFB9D3D3-F300-41EC-AC21-04F9ACC9B95A}">
-						<Child Name="linkBilling" Owner="{AAB4559B-5EC8-4515-A9EC-8676BDA23D6F}">
-							<Child Name="textnodeBilling2" Owner="{0C548E13-11CC-4B30-99C2-22F5825A2000}" />
-						</Child>
+						<Child Name="linkBilling" Owner="{AAB4559B-5EC8-4515-A9EC-8676BDA23D6F}" />
 					</Child>
 					<Child Name="textnodeInvoices" Owner="{808EFCA3-1AAC-4016-A24D-A045A7DEF4AB}">
 						<Child Name="linkInvoices" Owner="{952967F3-0618-49D7-B7AA-A507E981B035}" />
@@ -23188,6 +23291,7 @@
 						<Child Name="panelSearch" Owner="{7C535E37-2FBC-44C1-9BB5-A7AC3B523A2F}" />
 						<Child Name="buttonReset" Owner="{29E07396-C73F-4999-A517-92B88C7962B3}" />
 						<Child Name="panelDropdownTrigger" Owner="{4EE8943D-F0E4-4CEA-815D-68AE9A098303}" />
+						<Child Name="vg4" Owner="{472FFFA5-427E-442A-9EBD-A04E2C611F36}" />
 					</Child>
 					<Child Name="textnodeYourCargoDetail" Owner="{A03FBEC3-D242-44EE-BEE6-21E697353183}" />
 					<Child Name="commodityName" Owner="{71DA3E13-859F-4302-AD93-59A63D4AA22B}" />
@@ -23224,7 +23328,6 @@
 					<Child Name="panelMyPortal" Owner="{B6959C25-1CD0-43C6-A091-9148CAFB7EC6}" />
 					<Child Name="page6" Owner="{775BBA3E-C8BA-4067-9A51-829D11196906}" />
 					<Child Name="buttonLastPage" Owner="{88B9CFAC-F293-4617-AB21-7CB0597332B7}" />
-					<Child Name="vg" Owner="{C2449F78-02EF-4DBD-BD4B-682E3D976CA1}" />
 					<Child Name="textarea" Owner="{B0CDE249-1389-420B-BA45-664F1F924B6A}" />
 					<Child Name="buttonUploadAttachment" Owner="{1CC2F277-8894-45F3-A826-E525E382EBCF}" />
 					<Child Name="buttonPdf" Owner="{0C1BCB73-C3F8-4748-9397-6FFB400803D1}" />
@@ -23379,6 +23482,7 @@
 				<Child Name="textnode50" Owner="{11508055-811C-40E7-8094-2BB3D132C1AF}" />
 				<Child Name="linkInvoices2" Owner="{C48AC127-8365-4C7F-A0DD-DEEE79FC19E7}" />
 				<Child Name="panelWRThis" Owner="{7A1D020A-7645-4432-A830-6A5FA56B74A9}" />
+				<Child Name="textnodeBilling2" Owner="{0C548E13-11CC-4B30-99C2-22F5825A2000}" />
 			</Child>
 			<Child Name="BrowserWindow" Owner="{04F3F450-5526-4092-96D2-21C0884F59D5}" />
 			<Child Name="pageMagayaDigitalFreightPortalHu" Owner="{C7ED2FC9-0D1F-40A0-87DF-C64B4F0237DC}">
@@ -23516,6 +23620,7 @@
 			<Child Name="wndChrome_WidgetWin_0" Owner="{70ECFEB0-24A7-4734-BA83-D610C71EA36D}">
 				<Child Name="Chrome_RenderWidgetHostHWND" Owner="{E2FF1B6E-FD72-4158-8F31-C202800795A8}" />
 			</Child>
+			<Child Name="vg" Owner="{C2449F78-02EF-4DBD-BD4B-682E3D976CA1}" />
 		</Child>
 		<Child Name="ExpExpl" Owner="{CD3C85FD-FE23-49C1-9507-BC799CFA2850}">
 			<Child Name="dlg" Owner="{AB8C7EDE-89C5-4475-8B4F-0C7D609AB6A1}">
@@ -23582,6 +23687,9 @@
 						<Child Name="listitemDocdfp1512Kb" Owner="{ED7596E0-C372-4EF9-9428-44C3EEBB6AF3}" />
 						<Child Name="listitemXlsdfp17820Kb" Owner="{5C1E870D-66C2-4126-B933-3CCD0E7AAA57}" />
 						<Child Name="listitemTest16475Kb2" Owner="{257465A3-4914-490C-9BB9-33B8AC80D3F0}" />
+						<Child Name="listitemRoundpriceupdated17820Kb" Owner="{AED94950-1806-4E3F-A24E-DF280D3642EA}" />
+						<Child Name="listitemTestingAttachments1173Kb" Owner="{010B6B93-A9B8-4714-AFAD-5DF5FDC673C3}" />
+						<Child Name="listitemTest26583Kb" Owner="{FB4322A2-3225-4D1D-ACEF-FB4E054662AE}" />
 					</Child>
 					<Child Name="EditApplyTo" Owner="{8781365F-C9D1-4F91-A41F-59B51B524D62}" />
 					<Child Name="cbxPickListCustomField" Owner="{D9729814-506D-4CD8-A789-3492CDA122B5}">
@@ -23622,6 +23730,7 @@
 					<Child Name="editCustomer" Owner="{17844BB3-7DEE-4A2A-8F3F-DEB6CF023D0D}" />
 					<Child Name="check2" Owner="{E5712288-1DF1-4A08-9CDB-60A21689063E}" />
 					<Child Name="RICHEDIT" Owner="{E2AA9D2E-691B-41E7-AB4D-9593844BBD9B}" />
+					<Child Name="buttonFind" Owner="{CDB8B2F3-4AA7-4C14-B112-D64BB9BB99B6}" />
 				</Child>
 				<Child Name="tbcAccountingTransaction" Owner="{8E0B9DB8-20F6-4640-9618-B6DE55578D37}">
 					<Child Name="spinbox" Owner="{5AA68BEE-CD37-42C5-AED9-DA3F1B4454BB}">
@@ -23657,6 +23766,7 @@
 				<Child Name="titlebar" Owner="{9B66015C-3101-4F7E-9DAA-807544073242}">
 					<Child Name="buttonClose" Owner="{EA9EFE83-7B54-4C38-89AC-701797C74BA2}" />
 				</Child>
+				<Child Name="buttonFind" Owner="{ECFD87A8-9BC3-4B9D-8212-52B4602BD150}" />
 			</Child>
 			<Child Name="wndCefBrowserWindow" Owner="{A8DDB9A1-DB0D-4E12-BC5B-C4A93FE9B21E}">
 				<Child Name="Chrome_WidgetWin_0" Owner="{AFEE01FD-7B63-4645-8BD5-98D2C0427784}">
@@ -23881,6 +23991,7 @@
 				<Child Name="menuitemAddInventoryItem" Owner="{9D2E8836-CD3B-47ED-B493-CE56E3C31710}" />
 				<Child Name="menuitemCreateWarehouseReceipt" Owner="{E66230F0-CC92-4728-87CC-23ECB6CA6CED}" />
 				<Child Name="menuitemCustomerPayment" Owner="{E1DE50F4-0C48-4BBC-8774-DCEBB271CFC6}" />
+				<Child Name="menuitemFindByNumber" Owner="{05605464-99BD-4C1C-94A7-34BB44DB2E5C}" />
 			</Child>
 			<Child Name="popupAddShipments" Owner="{7B5B87DD-400C-484F-8DBD-C1AE8A94105C}">
 				<Child Name="menuitemAirShipment" Owner="{03CA3046-A9BF-46B8-9B9B-5CA0F4BD83DF}" />
